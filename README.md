@@ -2,6 +2,7 @@
 # This Images Contains:
 - APACHE
 - PHP 8.1
+  -With Composer + required extensions to run Symfony
 - ELASTIC SEARCH STACK
 - MAILHOG
 - MYSQL
