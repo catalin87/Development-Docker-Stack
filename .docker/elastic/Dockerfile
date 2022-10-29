@@ -1,1 +1,1 @@
-FROM sebp/elk
+FROM sebp/elk:8.3

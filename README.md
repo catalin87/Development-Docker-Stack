@@ -1,14 +1,14 @@
 
 # This Images Contains:
 - APACHE
-- PHP 8.1
+- PHP (8.1.*)
   -With Composer + required extensions to run Symfony
-- ELASTIC SEARCH STACK
-- MAILHOG
-- MYSQL
-- PHPMYADMIN
-- RABBITMQ
-- REDIS
+- ELASTIC SEARCH STACK (8.3.*)
+- MAILHOG (latest)
+- MYSQL (8.*)
+- PHPMYADMIN (5.*)
+- RABBITMQ (3.11.*-management)
+- REDIS (6.*)
 
 
 ## Start:
