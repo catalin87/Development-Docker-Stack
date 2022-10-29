@@ -2,6 +2,8 @@ version: '3.8'
 services:
   php-apache:
     container_name: php-apache
+    environment:
+      APACHE_DOCUMENT_ROOT: ${APACHE_DOCUMENT_ROOT}
     build:
       context: ./.docker/php-apache
       dockerfile: Dockerfile
