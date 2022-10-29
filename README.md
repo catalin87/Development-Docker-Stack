@@ -18,8 +18,8 @@
 ### Solutions:
 if elastic is not starting:
 On windows open powershell, run
-`wsl -d docker-desktop`
-`sysctl -w vm.max_map_count=262144`
+- `wsl -d docker-desktop`
+- `sysctl -w vm.max_map_count=262144`
 
 ### Endpoints:
 - http://127.0.0.1:80 -> Apache
