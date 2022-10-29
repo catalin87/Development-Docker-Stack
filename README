@@ -1,0 +1,12 @@
+docker network create elastic
+
+docker-compose build
+docker-compose up
+
+
+
+if elastic is not starting:
+windows:
+Open powershell, run
+wsl -d docker-desktop
+sysctl -w vm.max_map_count=262144
