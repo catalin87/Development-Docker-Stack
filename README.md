@@ -25,7 +25,7 @@ On windows open powershell, run
 ### Endpoints:
 - http://127.0.0.1:80 -> Apache
 - http://127.0.0.1:8080 -> PHPMyAdmin
-- http://127.0.0.1:1025 -> Mailhog Inbox
-- http://127.0.0.1:6379 -> Redis
+- http://127.0.0.1:8025 -> Mailhog Inbox
+- http://127.0.0.1:8001 -> RedisInsight
 - http://127.0.0.1:15672 -> RabbitMQ Management
 - http://127.0.0.1:5601 -> ElasticSearch
