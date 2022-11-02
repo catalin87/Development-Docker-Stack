@@ -10,7 +10,7 @@ services:
     volumes:
       - ./app/backend:/var/www/html/:rw
     ports:
-      - 80:80
+      - "80:80"
     depends_on:
       - mysql
   mysql:
