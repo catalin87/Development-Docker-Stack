@@ -18,6 +18,7 @@ RUN apt-get install -y \
         sockets \
         mysqli \
         zip \
+        pdo_mysql \
     && pecl install amqp \
     && pecl install redis \
     && docker-php-ext-enable \
@@ -26,6 +27,7 @@ RUN apt-get install -y \
         sockets \
         redis \
         mysqli \
+        pdo_mysql \
         zip
 
 RUN sed -ri -e 's!/var/www/html!/var/www/html${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
