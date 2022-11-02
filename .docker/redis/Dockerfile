@@ -1,1 +1,1 @@
-FROM redis/redis-stack:6
+FROM redis/redis-stack
